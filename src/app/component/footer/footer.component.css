@@ -1,0 +1,157 @@
+/* ==========================
+13. Footer
+============================= */
+.footer {}
+
+.f-desc {
+    background-color: #252525;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.fcopy {
+    background-color: #0071BC;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.footer-item {
+    line-height: 20px;
+    color: #999999;
+    font-weight: 400;
+    margin-bottom: 20px;
+    min-height: 250px;
+}
+
+.footer-sosmed {
+    margin-top: 20px;
+}
+
+.footer-sosmed .item {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #29ABE2;
+    color: #fff;
+    display: inline-table;
+    padding-top: 6px;
+    border-radius: 50%;
+}
+
+.footer-sosmed .item:hover {
+    background-color: #FBA301;
+}
+
+.footer-sosmed .item .fa {
+    font-size: 16px;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+.footer-title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.footer-title:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-blog-item {
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-blog-item:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    color: #29ABE2;
+    float: left;
+    padding-left: -20px;
+    margin-left: -26px;
+    font-size: 16px;
+}
+
+.footer-blog-item .footer-blog-lead {
+    line-height: 20px;
+    color: #999999;
+    font-weight: 400;
+}
+
+.footer-blog-item .footer-blog-lead a {
+    color: #999999;
+}
+
+.footer-blog-item .footer-blog-lead a:hover {
+    color: #FBA301;
+}
+
+.footer-blog-item .footer-blog-date {
+    font-size: 12px;
+    line-height: 17px;
+    color: #29ABE2;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.footer-form {}
+
+.footer-form .form-control {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.footer-getintouch {}
+
+.footer-getintouch-item {
+    clear: both;
+    margin-bottom: 10px;
+    content: '';
+}
+
+.footer-getintouch-item .icon {
+    font-size: 18px;
+    color: #29ABE2;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    width: 20px;
+}
+
+.footer-getintouch-item .icon .fa {
+    font-size: 16px;
+}
+
+.footer-getintouch-item .desc {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.footer-getintouch-item .desc .desc-1 {
+    width: 60px;
+    float: left;
+}
+
+.footer-getintouch-item .desc .desc-2 {
+    width: 10px;
+    float: left;
+}
+
+.footer-getintouch-item .desc .desc-3 {
+    float: left;
+}

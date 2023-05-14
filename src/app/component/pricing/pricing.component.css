@@ -1,0 +1,233 @@
+.subbanner .breadcrumb {
+    padding: 8px 0px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: transparent;
+}
+
+.subbanner .breadcrumb>.active {
+    color: #fff;
+}
+
+.subbanner .breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #fff;
+    content: "/\00a0";
+}
+
+.subbanner {
+    margin-top: 0px;
+    background-color: #29ABE2;
+    height: 150px;
+}
+
+.subbanner .caption {
+    margin-top: 35px;
+    float: right;
+    color: #fff;
+    text-align: right;
+}
+
+.subbanner .caption a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.subbanner .caption h3 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.panel-pricing {
+    border-color: #ddd;
+    text-align: center;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
+}
+
+.panel-pricing .price {
+    padding: 25px 0;
+    font-size: 80px;
+    background-color: #29ABE2;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.panel-pricing .price:before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    display: block;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: -33px;
+    margin-bottom: 20px;
+}
+
+.panel-pricing h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.panel-pricing .price sup {
+    font-size: 18px;
+    margin-right: 5px;
+    top: -1.2em;
+    font-weight: 400;
+}
+
+.panel-pricing>.panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ddd;
+    padding: 0px 0px;
+}
+
+.panel-pricing .price .subscript {
+    font-size: 26px;
+    margin-left: 0px;
+}
+
+.panel-pricing .table>tbody>tr>td,
+.table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+    border-bottom: 1px solid #ccc;
+}
+
+.panel-pricing .panel-footer {
+    padding: 0px 15px 10px 15px;
+    background-color: #fff;
+    border-top: 0;
+}
+
+.panel-pricing .panel-body {
+    padding: 15px 30px 0px 30px;
+}
+
+.panel-pricing .btn-primary {
+    color: #fff;
+    background-color: #29ABE2;
+    border-color: #29ABE2;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-weight: 700;
+    padding: 12px 0;
+}
+
+.panel-pricing .btn-primary:hover {
+    color: #fff;
+    background-color: #FBA301;
+    border-color: #FBA301;
+}
+
+.panel-pricing:hover>.panel-heading,
+.panel-pricing:hover>.panel-body,
+.panel-pricing:hover>.panel-footer {}
+
+.price-detail {}
+
+.price-detail-heading {
+    font-size: 18px;
+    color: #0071BC;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.price-detail-body {
+    background-color: #F8F8F8;
+    border-top: 2px solid #29ABE2;
+    padding: 20px 40px 20px 20px;
+}
+
+.price-detail-body .item {
+    padding: 5px;
+}
+
+.price-detail-body .item:after {
+    clear: both;
+    width: 100%;
+    display: block;
+    content: '';
+}
+
+.price-detail-body .item-name {
+    float: left;
+}
+
+.price-detail-body .fa {
+    margin-right: 10px;
+    color: #29ABE2;
+    font-size: 16px;
+}
+
+.price-detail-body .item-price {
+    float: right;
+    color: #666666;
+    font-weight: 700;
+}
+
+.more-info-price {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+.more-info-price a {
+    color: #0071BC;
+    font-weight: 700;
+}
+
+.page-title{
+	text-align:center;
+	margin-bottom: 80px;
+    margin-top: 80px;
+}
+.page-title .lead{
+	font-size: 30px;
+    color: #0071BC;
+    line-height: 34px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+}
+.page-title .sublead{
+	font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+}
+.bg-grey{
+	background-color:#F8F8F8;
+}
+.ptop-single{
+	padding:80px 0;
+}
+p {
+    margin: 0 0 10px;
+}
